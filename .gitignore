@@ -1,0 +1,12 @@
+# Binary files — not useful in version control or Claude project sync
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.webp
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
