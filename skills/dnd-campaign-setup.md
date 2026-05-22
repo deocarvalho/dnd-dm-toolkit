@@ -25,6 +25,7 @@ description: Load this skill at the start of every session. It is the single sou
 ## The Character
 
 - **Name:** Auriel Harpell
+- **Pronouns:** he/him
 - **Race:** Half-Elf
 - **Classes:** Cleric (Knowledge Domain) 1 / Wizard (Order of Scribes) 5
 - **Current Level:** 6
@@ -103,7 +104,7 @@ CON Save is used for concentration checks (DC = max(10, half damage taken)). **W
 ### Wizard [Ability: Intelligence | Preparations: 8 | Attack Mod: +6 | Saving DC: 14]
 #### Cantrips
 - *Fire Bolt*: +6 to hit, 2d10 fire, 120 ft
-- *Mage Hand*
+- *Mage Hand*: Create spectral hand for simple tasks or carry up to 10 lb; action to control; can't have multiple instances
 - *Mind Sliver*: INT save DC 14, 2d6 psychic, 60 ft — target subtracts 1d4 from its next save
 - *Minor Illusion*
 
