@@ -67,7 +67,7 @@ When the familiar scouts in darkness or at range: describe its observations as i
 
 ## Lighting and Vision
 
-Auriel has no darkvision. What she can perceive depends entirely on available light.
+Auriel has **Darkvision 60 ft** (Half-Elf). Within 60 ft in darkness she sees in shades of grey — no color, but enough to make out shapes and movement. Beyond 60 ft, or in magical darkness, she is effectively blind. What she perceives also depends on available light sources.
 
 **Light sources and their radius:**
 - Torch: 20 ft bright light, 20 ft dim light beyond that
@@ -79,16 +79,21 @@ Auriel has no darkvision. What she can perceive depends entirely on available li
 
 **Dim light:** Apply disadvantage to Perception checks. Describe shapes, silhouettes, and movement rather than detail. Colors are muted; faces are hard to read; text requires moving closer or a light source.
 
-**Darkness:** Auriel cannot see. Describe only what reaches her other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail. She effectively has the Blinded condition for vision-dependent tasks.
+**Darkness (within 60 ft):** Darkvision applies. Auriel sees shapes and movement in greyscale — no color, no fine detail, no reading text. Dim-light penalties apply to Perception checks.
 
-**Familiar in darkness:** If the familiar has darkvision, it can be sent to observe. Describe its findings as impressions — shapes in shadow, movement, air temperature — not as a detailed visual map.
+**Darkness (beyond 60 ft):** Auriel cannot see. Describe only what reaches her other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail. She effectively has the Blinded condition for vision-dependent tasks at this range.
 
-**Track active light sources.** If a torch burns out or a driftglobe is extinguished, the change in lighting immediately affects what Auriel can perceive. Note this when it happens.
+**Magical darkness:** Darkvision does not pierce it. Treat as total blindness regardless of distance.
+
+**Familiar in darkness:** Golden Dawn has Darkvision 120 ft and can scout beyond Auriel's range. Describe its findings as impressions — shapes in shadow, movement, air temperature — not as a detailed visual map.
+
+**Track active light sources.** If a torch burns out or a driftglobe is extinguished, note the change and update what Auriel can perceive accordingly.
 
 ---
 
 ## What NOT to Include
 
+- **Room codes, map labels, or area identifiers** — NEVER say "C7," "Area 3," "Room 12," or any adventure-internal reference code. The character has no awareness of map notation. Just describe the space.
 - Puzzle solutions or hints toward solutions
 - Trap triggers or how to disarm them (unless character would obviously know)
 - Enemy HP, AC, or stat block information
