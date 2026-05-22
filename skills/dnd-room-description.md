@@ -13,6 +13,24 @@ The player solves puzzles. Claude describes what is there.
 
 ---
 
+## Source Priority: What to Draw From
+
+When entering or describing a location, use sources in this order:
+
+### 1. Adventure Read-Aloud Text (use verbatim or near-verbatim)
+Official D&D adventures include boxed or italicised text explicitly written for the DM to read aloud to players. **If this text exists for the current location, use it.** You may trim for pacing or adapt slightly for tense/perspective, but do not paraphrase away its atmosphere or specific sensory details. This is the authored voice of the adventure — use it.
+
+### 2. Adventure Room Description (if no read-aloud text)
+If the adventure provides only a DM-facing room description (not formatted as read-aloud), compose a description from it using the structure below. Apply strict filtering:
+- Include only what the character can detect with their senses from where they are standing
+- Strip out all mechanical notes, DCs, trap details, secret doors, hidden objects, NPC motives, and any information the character has no sensory access to
+- If something is hidden (secret door, concealed item, invisible creature), it does not exist in the description unless the character's Passive Perception exceeds the Notice DC
+
+### 3. No Source Available
+If neither is available, compose a description using the sensory structure below and the campaign atmosphere from the campaign setup skill.
+
+---
+
 ## The Iron Rule: Describe, Don't Interpret
 
 **GOOD:**
@@ -67,7 +85,7 @@ When the familiar scouts in darkness or at range: describe its observations as i
 
 ## Lighting and Vision
 
-Auriel has **Darkvision 60 ft** (Half-Elf). Within 60 ft in darkness she sees in shades of grey — no color, but enough to make out shapes and movement. Beyond 60 ft, or in magical darkness, she is effectively blind. What she perceives also depends on available light sources.
+The character's vision type and range are in the campaign setup skill. Check it before describing any dark or low-light area.
 
 **Light sources and their radius:**
 - Torch: 20 ft bright light, 20 ft dim light beyond that
@@ -79,15 +97,15 @@ Auriel has **Darkvision 60 ft** (Half-Elf). Within 60 ft in darkness she sees in
 
 **Dim light:** Apply disadvantage to Perception checks. Describe shapes, silhouettes, and movement rather than detail. Colors are muted; faces are hard to read; text requires moving closer or a light source.
 
-**Darkness (within 60 ft):** Darkvision applies. Auriel sees shapes and movement in greyscale — no color, no fine detail, no reading text. Dim-light penalties apply to Perception checks.
+**Darkness (within darkvision range):** The character sees shapes and movement in greyscale — no color, no fine detail, no reading text. Dim-light penalties apply to Perception checks.
 
-**Darkness (beyond 60 ft):** Auriel cannot see. Describe only what reaches her other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail. She effectively has the Blinded condition for vision-dependent tasks at this range.
+**Darkness (beyond darkvision range):** The character cannot see. Describe only what reaches their other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail. The character effectively has the Blinded condition for vision-dependent tasks at this range.
 
 **Magical darkness:** Darkvision does not pierce it. Treat as total blindness regardless of distance.
 
-**Familiar in darkness:** Golden Dawn has Darkvision 120 ft and can scout beyond Auriel's range. Describe its findings as impressions — shapes in shadow, movement, air temperature — not as a detailed visual map.
+**Familiar in darkness:** If the familiar has darkvision that extends beyond the character's range (see campaign setup), it can be sent to scout. Describe its findings as impressions — shapes in shadow, movement, air temperature — not as a detailed visual map.
 
-**Track active light sources.** If a torch burns out or a driftglobe is extinguished, note the change and update what Auriel can perceive accordingly.
+**Track active light sources.** If a torch burns out or a driftglobe is extinguished, note the change and update what the character can perceive accordingly.
 
 ---
 
@@ -106,9 +124,9 @@ Auriel has **Darkvision 60 ft** (Half-Elf). Within 60 ft in darkness she sees in
 
 ## Doors and Transitions
 
-Describe doors when Auriel first encounters them: material (wood, iron, stone), condition (intact, damaged, rotting), and state (open, closed, locked, stuck, ajar). If the door has a visible lock, handle, or unusual feature, include it.
+Describe doors when the character first encounters them: material (wood, iron, stone), condition (intact, damaged, rotting), and state (open, closed, locked, stuck, ajar). If the door has a visible lock, handle, or unusual feature, include it.
 
-**Locked or stuck doors:** Note that it is locked or stuck. Do not reveal the DC or mechanism unless Auriel examines it more closely (Investigation roll, or obvious to any observer).
+**Locked or stuck doors:** Note that it is locked or stuck. Do not reveal the DC or mechanism unless the character examines it more closely (Investigation roll, or obvious to any observer).
 
 **Corridors and transitions:** One sentence is enough — describe the direction, approximate length, and any obvious feature or hazard. A corridor is not a room; don't give it a full room description unless it contains a point of interest.
 
@@ -116,7 +134,7 @@ Describe doors when Auriel first encounters them: material (wood, iron, stone), 
 
 ## Revisited Rooms
 
-When Auriel returns to a room already described, skip the standard description entirely.
+When the character returns to a room already described, skip the standard description entirely.
 
 Lead only with what has **changed** since the last visit: enemies defeated, items taken, doors now open, fires extinguished, anything moved or altered by events. If nothing has changed, one sentence suffices: "The [room name] is exactly as you left it."
 
@@ -165,7 +183,7 @@ For creatures: basic creature type, common knowledge (e.g., "you know mimics are
 For objects: general function if it's a common item type.
 For magic: Detect Magic tells them if something is magical and what school — nothing more without further study.
 
-Do NOT reveal anything Auriel wouldn't know without a skill check.
+Do NOT reveal anything the character wouldn't know without a skill check.
 
 ---
 
