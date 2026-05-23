@@ -25,7 +25,7 @@ description: Load this skill at the start of every session. It is the single sou
 ## The Character
 
 - **Name:** Auriel Harpell
-- **Pronouns:** he/him
+- **Gender:** Male
 - **Race:** Half-Elf
 - **Classes:** Cleric (Knowledge Domain) 1 / Wizard (Order of Scribes) 5
 - **Current Level:** 6
