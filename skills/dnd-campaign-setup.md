@@ -27,8 +27,8 @@ description: Load this skill at the start of every session. It is the single sou
 - **Name:** Auriel Harpell
 - **Gender:** Male
 - **Race:** Half-Elf
-- **Classes:** Cleric (Knowledge Domain) 1 / Wizard (Order of Scribes) 5
-- **Current Level:** 6
+- **Classes:** Cleric (Knowledge Domain) 1 / Wizard (Order of Scribes) 6
+- **Current Level:** 7
 - **Background:** Sage
 - **Alignment:** True Neutral
 
@@ -37,8 +37,8 @@ description: Load this skill at the start of every session. It is the single sou
 ## Core Stats
 
 ```
-HP MAX:                         34
-HIT DICE:                       1d8 + 5d6
+HP MAX:                         39
+HIT DICE:                       1d8 + 6d6
 AC (unarmored):                 12
 AC (unarmored + shield):        14
 AC (Mithral Armor):             17
@@ -74,6 +74,7 @@ CON Save is used for concentration checks (DC = max(10, half damage taken)). **W
 | Wizard (Scribes 2) | **Awakened Spellbook** | Spellbook as arcane focus. Once per long rest: ritual cast a wizard spell without the extra 10-minute casting time. When casting with a spell slot, can swap the spell's damage type for one that appears elsewhere in the spellbook. |
 | Wizard (Scribes 2) | **Wizardly Quill** | Bonus action: conjure a magical quill (no ink needed; any color). Copies spells to spellbook in 2 min/spell level. Can erase its own writing within 5 ft. |
 | Wizard (Optional 3) | **Cantrip Formulas** | After each long rest, can swap one known wizard cantrip for another wizard cantrip. |
+| Wizard (Scribes 6) | **Manifest Mind** | Bonus action: manifest the Awakened Spellbook's spectral mind within 60 ft. It can move 30 ft as a bonus action, see/hear within 60 ft, share its senses, and serve as the origin for wizard spells cast on Auriel's turn (PB times per long rest). |
 | Stone of Good Luck | **Luckstone** | +1 to all ability checks and saving throws while attuned and on person. |
 
 ---
@@ -84,9 +85,9 @@ CON Save is used for concentration checks (DC = max(10, half damage taken)). **W
 |Spell Attack Bonus|+5|+6|
 |Spell Save DC|13|14|
 
-|Slot Level|1st|2nd|3rd|
-|:-|:-:|:-:|:-:|
-|Slots|4|3|3|
+|Slot Level|1st|2nd|3rd|4th|
+|:-|:-:|:-:|:-:|:-:|
+|Slots|4|3|3|1|
 
 ### Cleric [Ability: Wisdom | Preparations: 3 + domain | Attack Mod: +5 | Saving DC: 13]
 #### Cantrips
@@ -101,7 +102,7 @@ CON Save is used for concentration checks (DC = max(10, half damage taken)). **W
 - *Cure Wounds*: 1d8 + 2 (WIS mod) HP restored; touch
 - *Sanctuary*: 1 crea warded; any who want to attack/target must first make save; doesn't protect vs. area spells (1 min)
 
-### Wizard [Ability: Intelligence | Preparations: 8 | Attack Mod: +6 | Saving DC: 14]
+### Wizard [Ability: Intelligence | Preparations: 9 | Attack Mod: +6 | Saving DC: 14]
 #### Cantrips
 - *Fire Bolt*: +6 to hit, 2d10 fire, 120 ft
 - *Mage Hand*: Create spectral hand for simple tasks or carry up to 10 lb; action to control; can't have multiple instances
@@ -133,7 +134,10 @@ CON Save is used for concentration checks (DC = max(10, half damage taken)). **W
 
 #### 3rd Level
 - *Counterspell* (reaction): interrupt a spell being cast; auto-succeeds vs. 3rd level or lower
+- *Erupting Earth*: DEX save DC 14, 3d12 bludgeoning in a 20 ft cube within 120 ft; ground becomes difficult terrain until cleared
+- *Fireball*: DEX save DC 14, 8d6 fire in a 20 ft radius within 150 ft
 - *Fly* (concentration): fly speed 60 ft for 10 minutes
+- *Phantom Steed* (ritual): creates a Large quasi-real horselike creature for 1 hour; speed 100 ft, can carry one rider
 - *Slow* (concentration)
 - *Tiny Hut*
 - *Tongues*
@@ -173,14 +177,14 @@ GP:                  855
 
 ---
 
-## Current Baseline (Start of Adventure 3)
+## Current Baseline (Start of Adventure 6)
 
 *(Update this section from the most recent `cm-[N]-summary.md` before each adventure.)*
 
 ```
-HP:              34/34
-Hit Dice:        6/6 remaining
-Spell Slots:     1st: 4/4 | 2nd: 3/3 | 3rd: 3/3
+HP:              39/39
+Hit Dice:        7/7 remaining
+Spell Slots:     1st: 4/4 | 2nd: 3/3 | 3rd: 3/3 | 4th: 1/1
 Arcane Recovery: Available  (recover up to 3 levels of spell slots; 1× per day after short rest)
 Mage Armor:      Inactive
 Concentration:   None
