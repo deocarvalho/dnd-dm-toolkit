@@ -1,0 +1,53 @@
+---
+description: D&D DM creature stat block lookup protocol for Candlekeep Mysteries
+globs: adventures/**/*.md
+alwaysApply: false
+---
+
+# Creature Stat Block Lookup
+
+When reading or running any adventure in this project, every bolded creature name
+is a **clickable link** to its stat block file. The link format is:
+
+```
+[**creature name**](statblocks/SOURCE/Creature Name.md)
+```
+
+## When to Read a Stat Block
+
+Before describing an encounter or combat involving a creature, **always read its
+stat block file** to get accurate HP, AC, attacks, abilities, and special traits.
+
+Do not rely on memory for creature stats — always fetch the file.
+
+## Finding a Creature
+
+1. **Follow the link** in the adventure text — every creature name is already linked.
+2. **Use the index** if you need to look one up directly: [`statblocks/index.md`](../../statblocks/index.md)
+3. **Path pattern** if you know the name and source: `statblocks/{SOURCE}/{Name}.md`
+
+### Source codes
+| Code | Book |
+|------|------|
+| CM | Candlekeep Mysteries (adventure-specific) |
+| MM | Monster Manual |
+| VGM | Volo's Guide to Monsters |
+| MTF | Mordenkainen's Tome of Foes |
+| VRGR | Van Richten's Guide to Ravenloft |
+| IDRotF | Icewind Dale: Rime of the Frostmaiden |
+| MOT | Mythic Odysseys of Theros |
+
+## Stat Block Format
+
+Files use Homebrewery blockquote format. Key fields:
+
+- `{@atk mw}` = melee weapon attack
+- `{@atk rw}` = ranged weapon attack  
+- `{@hit N}` = +N to hit
+- `{@h}` = *Hit:* (start of damage line)
+- `{@damage NdN}` = damage dice
+- `{@dc N}` = DC N
+- `{@spell name}` = spell name
+- `{@condition name}` = condition name
+
+These tags render as plain text in Obsidian/your markdown viewer.

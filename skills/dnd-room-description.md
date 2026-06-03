@@ -20,6 +20,8 @@ When entering or describing a location, use sources in this order:
 ### 1. Adventure Read-Aloud Text (use verbatim or near-verbatim)
 Official D&D adventures include boxed or italicised text explicitly written for the DM to read aloud to players. **If this text exists for the current location, use it.** You may trim for pacing or adapt slightly for tense/perspective, but do not paraphrase away its atmosphere or specific sensory details. This is the authored voice of the adventure — use it.
 
+**Before entering any new room, search project knowledge for that room's read-aloud text. Do not skip this step.**
+
 ### 2. Adventure Room Description (if no read-aloud text)
 If the adventure provides only a DM-facing room description (not formatted as read-aloud), compose a description from it using the structure below. Apply strict filtering:
 - Include only what the character can detect with their senses from where they are standing
@@ -27,7 +29,7 @@ If the adventure provides only a DM-facing room description (not formatted as re
 - If something is hidden (secret door, concealed item, invisible creature), it does not exist in the description unless the character's Passive Perception exceeds the Notice DC
 
 ### 3. No Source Available
-If neither is available, compose a description using the sensory structure below and the campaign atmosphere from the campaign setup skill.
+If neither is available, compose a description using the sensory structure below and the campaign atmosphere from the campaign setup skill. **Keep improvised descriptions minimal — atmosphere only, no invented features.**
 
 ---
 
@@ -55,80 +57,127 @@ If you find yourself about to say "this seems to be," "this appears to be," "you
 
 ---
 
+## NEVER Use Room Codes in Player-Facing Descriptions
+
+Room codes (C1, A4, M13, etc.) are internal map references for the DM. They are **never** spoken aloud or written in descriptions the player sees.
+
+**WRONG:** "You enter C6, the dining room."
+**CORRECT:** "You enter the circular dining room."
+
+**WRONG:** "The trapdoor in A4 leads down to A6."
+**CORRECT:** "A trapdoor in the northeast corner leads down."
+
+Room codes exist only in the DM's notes. Strip them from every player-facing sentence.
+
+---
+
 ## What to Include in a Description
 
 Structure each room description in this order:
 
-### 1. Immediate Impression (1-2 sentences)
-The first thing that hits the senses as they step in — size, dominant visual, smell, temperature, sound.
+### 1. Overall Impression (1 sentence)
+Size, light level, dominant atmosphere. What hits the senses first.
+> "A long, low-ceilinged chamber, lit by a single guttering torch, smelling of salt and old stone."
 
-### 2. Fixed Features
-Furniture, architecture, built-in elements. Describe these neutrally and completely — size, material, condition, position.
+### 2. Key Features (2–4 sentences)
+The things that stand out — furniture, architectural features, anything visually dominant. Use the adventure text where it exists.
 
-### 3. Loose Objects
-Items that can be picked up, moved, or interacted with. Describe appearance only — not function or value unless it's obvious (e.g., "a sword" is fine; "a +1 sword" is not).
+### 3. Details at Eye Level
+Specific objects, surfaces, textures. Only what is visible from where the character is standing without moving or searching.
 
-### 4. Creatures or Movement
-Any creatures, animated objects, sounds of movement. Don't reveal stat block info. Describe appearance and behavior only.
+### 4. Sensory Cues Beyond Vision
+Sounds, smells, temperature, air movement — if meaningful. Rotate through:
+- **Sound:** echoes, silence, dripping, humming, wind
+- **Smell:** must, chemicals, food, ozone (magic), decay, fresh air
+- **Touch:** when relevant — cold metal, rough stone, sticky residue
+- **Magic:** if Detect Magic is active, note auras and schools
 
-### 5. Passive Perception Reveals
-Check the campaign setup skill for the character's Passive Perception score. Include anything with a Notice DC at or below that value automatically. For higher DCs, wait for an active Investigation or Perception check.
+### 5. Exits (last)
+Where can the character go from here? Describe doors, passages, stairs. Only describe what is visible from the current position and confirmed by the map.
 
 ### 6. Familiar's Contribution (if applicable)
-If the character has a familiar, check the campaign setup skill for its senses and default state. The familiar may notice things the character doesn't — especially at range or in conditions the character is impaired in (darkness, underwater, behind cover).
+Check the campaign setup skill for the familiar's senses, vision range, and default state. The familiar may notice things the character doesn't — especially at range or in conditions the character is impaired in.
 
-**Default state:** unless the player explicitly sends the familiar to scout, it is nearby and perceives the same things the character does.
+**Default state:** unless the player explicitly sends the familiar to scout, it is nearby and perceives the same things the character does. When the familiar scouts in darkness or at range, describe its observations as impressions — silhouettes, movement, air temperature — not a precise inventory. The familiar communicates imprecisely; it is not a scout drone.
 
-When the familiar scouts in darkness or at range: describe its observations as impressions (silhouettes, movement, sound) rather than a precise map. The familiar communicates imprecisely — it is not a scout drone.
+---
+
+## What to Withhold
+
+Never include in a description:
+- Contents of locked containers or drawers (unless open or visibly broken)
+- Contents of pockets or bags worn by NPCs
+- Hidden objects (below Passive Perception DC)
+- Mechanical trap triggers or DCs
+- Secret doors (below Passive Perception DC)
+- NPC intentions, plans, or internal states
+- Information about adjacent rooms the character hasn't entered
+- Your own interpretation of what something "means"
+
+---
+
+## Passive Perception — Apply Silently
+
+Check the campaign setup skill for the character's current Passive Perception score.
+
+Apply Passive Perception at the start of every new room automatically and silently — do not announce that you are doing so. If something has a Notice DC at or below that score, include it naturally in the description as if it's simply there.
+
+If a Notice DC is above the character's Passive Perception, the feature is not mentioned until the player actively searches.
+
+**Do not say:** "Your passive perception notices..."
+**Do say:** Simply include the detail in the description, as if it's just there.
 
 ---
 
 ## Lighting and Vision
 
-The character's vision type and range are in the campaign setup skill. Check it before describing any dark or low-light area.
+Check the campaign setup skill for the character's vision type (normal, darkvision, truesight) and range before describing any dark or low-light area.
 
-**Light sources and their radius:**
+**Common light sources and their radius:**
 - Torch: 20 ft bright light, 20 ft dim light beyond that
-- Driftglobe (active): 20 ft bright light, 20 ft dim light beyond that
 - Candle: 5 ft bright light, 5 ft dim
-- Dancing Lights: 10 ft dim light per orb, no bright
+- Dancing Lights: 10 ft dim light per orb, no bright light
 
 **Bright light:** Normal perception. Use the standard description order.
 
 **Dim light:** Apply disadvantage to Perception checks. Describe shapes, silhouettes, and movement rather than detail. Colors are muted; faces are hard to read; text requires moving closer or a light source.
 
-**Darkness (within darkvision range):** The character sees shapes and movement in greyscale — no color, no fine detail, no reading text. Dim-light penalties apply to Perception checks.
+**Darkness (within darkvision range):** The character sees in greyscale — no color, no fine detail, no reading text. Dim-light penalties apply to Perception checks.
 
-**Darkness (beyond darkvision range):** The character cannot see. Describe only what reaches their other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail. The character effectively has the Blinded condition for vision-dependent tasks at this range.
+**Darkness (beyond darkvision range):** The character cannot see. Describe only what reaches their other senses — sounds, smells, air movement, the feel of the floor. Perception checks requiring sight auto-fail.
 
-**Magical darkness:** Darkvision does not pierce it. Treat as total blindness regardless of distance.
+**Magical darkness:** Darkvision does not pierce it. Treat as total blindness regardless of the character's vision type.
 
-**Familiar in darkness:** If the familiar has darkvision that extends beyond the character's range (see campaign setup), it can be sent to scout. Describe its findings as impressions — shapes in shadow, movement, air temperature — not as a detailed visual map.
-
-**Track active light sources.** If a torch burns out or a driftglobe is extinguished, note the change and update what the character can perceive accordingly.
+Track active light sources. If a torch burns out or a light spell ends, note the change and update what the character can perceive accordingly.
 
 ---
 
-## What NOT to Include
+## Entering a Room — Checklist
 
-- **Room codes, map labels, or area identifiers** — NEVER say "C7," "Area 3," "Room 12," or any adventure-internal reference code. The character has no awareness of map notation. Just describe the space.
-- Puzzle solutions or hints toward solutions
-- Trap triggers or how to disarm them (unless character would obviously know)
-- Enemy HP, AC, or stat block information
-- What items are "worth" in gold (unless obviously labeled or priced)
-- Whether a path leads somewhere useful
-- Interpretations of symbols, patterns, or arrangements
-- Anything that tells the player what to do next
+Before describing any room:
+
+- [ ] Searched project knowledge for this room's read-aloud text?
+- [ ] Using the text verbatim or near-verbatim where it exists?
+- [ ] Stripped all room codes from the description?
+- [ ] Applied Passive Perception silently (using score from campaign setup)?
+- [ ] Described exits without inventing ones not on the map?
+- [ ] Withheld all hidden information (traps, secret doors, concealed items) unless Passive Perception reveals them?
+- [ ] Avoided interpreting any object or detail for the player?
 
 ---
 
-## Doors and Transitions
+## Map Fidelity
 
-Describe doors when the character first encounters them: material (wood, iron, stone), condition (intact, damaged, rotting), and state (open, closed, locked, stuck, ajar). If the door has a visible lock, handle, or unusual feature, include it.
+The map is the ground truth for layout. Before describing exits, room connections, doors, or staircases:
 
-**Locked or stuck doors:** Note that it is locked or stuck. Do not reveal the DC or mechanism unless the character examines it more closely (Investigation roll, or obvious to any observer).
+1. Check the map
+2. Describe only what the map shows
+3. Do not invent doors, windows, passages, or features not on the map
+4. Do not omit doors or passages that are on the map
 
-**Corridors and transitions:** One sentence is enough — describe the direction, approximate length, and any obvious feature or hazard. A corridor is not a room; don't give it a full room description unless it contains a point of interest.
+**Failure example:** A side entrance was invented for a building that had only one entrance on the map. This sent the player exploring a nonexistent location.
+
+If the map is ambiguous, describe only what is certain and ask the player to clarify rather than inventing.
 
 ---
 
@@ -140,20 +189,6 @@ Lead only with what has **changed** since the last visit: enemies defeated, item
 
 ---
 
-## Perception vs. Investigation
-
-These are different skills with different purposes. Use the right one.
-
-**Wisdom (Perception)** — noticing that something is there. Use when the character is looking around a room, listening, or detecting the presence of something hidden. Passive Perception applies automatically; active Perception is called when the character is actively searching for something specific with their senses.
-
-**Intelligence (Investigation)** — figuring out how something works or what it means. Use when the character is examining an object or mechanism, deciphering clues, or working out how to open a trick door, unlock a hidden compartment, or interpret evidence.
-
-**The typical sequence:** A Perception check reveals *that* something is there (a door that isn't quite flush, dust disturbed on a surface). An Investigation check then reveals *how* to interact with it (the mechanism that opens the door, what the disturbed dust indicates).
-
-Do NOT use Investigation to detect whether something exists — that is Perception's job.
-
----
-
 ## Responding to "I Search the Room" or "I Look Around"
 
 Ask for the appropriate roll based on what the character is trying to do:
@@ -162,12 +197,12 @@ Ask for the appropriate roll based on what the character is trying to do:
 
 **DC guidelines (don't reveal DCs to the player):**
 - DC ≤ Passive Perception: The character notices it automatically
-- DC 15–19: Requires active roll
-- DC 20+: Requires exceptional roll
+- DC 15–19: Requires an active roll
+- DC 20+: Requires an exceptional roll
 
 When they find something hidden, describe ONLY what they find — not why it was hidden or what it means.
 
-**Critical rule:** Never hide information that is essential to completing the adventure behind a single check. If a clue is required to progress, it must be findable through multiple means or be within passive perception range. Optional secrets and bonus discoveries can be hidden behind harder DCs.
+**Critical rule:** Never hide information essential to completing the adventure behind a single check. If a clue is required to progress, it must be findable through multiple means or be within passive perception range. Optional secrets and bonus discoveries can be hidden behind harder DCs.
 
 ---
 
@@ -179,41 +214,22 @@ Answer yes or no only. Do not elaborate on where or when unless the player asks 
 
 ## Responding to "What Do I Know About X?"
 
-For creatures: basic creature type, common knowledge (e.g., "you know mimics are shapeshifters that prey on adventurers").
+For creatures: basic creature type and common knowledge (e.g., "you know mimics are shapeshifters that prey on adventurers").
 For objects: general function if it's a common item type.
-For magic: Detect Magic tells them if something is magical and what school — nothing more without further study.
+For magic: Detect Magic reveals whether something is magical and what school — nothing more without further study.
 
 Do NOT reveal anything the character wouldn't know without a skill check.
 
 ---
 
-## Sensory Details to Use
-
-Make descriptions vivid without padding. Rotate through:
-- **Sight:** light quality, color, movement, condition (dusty, clean, damaged)
-- **Sound:** echoes, silence, dripping, humming, wind
-- **Smell:** must, chemicals, food, ozone (magic), decay, fresh air
-- **Touch:** mentioned when relevant (cold metal, rough stone, sticky residue)
-- **Magic:** if Detect Magic is active, note auras and schools
-
----
-
-## Campaign Atmosphere
-
-Tone and atmosphere notes for the current campaign setting and adventure are in the **campaign setup skill**. Load that skill to establish the sensory palette before describing rooms.
-
-Apply the campaign's established tone consistently — the same setting should feel like the same place from room to room.
-
----
-
 ## Format
 
-Keep descriptions to 3-6 sentences for a standard room. More is warranted for:
+Keep descriptions to 3–6 sentences for a standard room. More is warranted for:
 - Large or complex spaces
 - Areas with multiple points of interest
 - The first time a unique space is encountered
 
 Less is fine for:
-- Rooms already described being revisited
+- Rooms being revisited
 - Simple passages or transitional spaces
 - When the player is clearly in a hurry

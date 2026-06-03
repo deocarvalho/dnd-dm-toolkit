@@ -95,31 +95,43 @@ Do NOT use Investigation to determine whether a character notices something. Tha
 
 ## Passive Checks
 
-Passive Perception is 10 + all modifiers that apply to a Wisdom (Perception) check.
+**Passive Perception** is the most important passive check in this campaign. It is **10 + all modifiers** that normally apply to a Wisdom (Perception) check. Add 5 to a character's passive perception if they have advantage in Wisdom (Perception) checks and subtract 5 if they have disadvantage.
+
+### When to Apply Passive Perception
+
+Apply passive Perception automatically and **silently** at the start of every new room or area — do not announce that you are doing so, and do not draw attention to it. If something is noticed, simply include it in the description as if it is naturally there.
+
+**DO NOT say:** "Your passive perception of 16 notices a loose stone."
+**DO say:** "The flagstone near the north wall sits slightly higher than the rest."
 
 Use passive checks when:
 - Asking for an active roll would tip off the player that something hidden exists
-- You want to know if a character would routinely notice something without drawing attention to it
-- The character is moving through an area without actively searching
+- You want to know if a character would routinely notice something without actively searching
+- The character is moving through an area without explicitly searching
 
-For other skills (Insight, Investigation, History), you can establish passive scores the same way: 10 + relevant modifiers. These are especially useful in social encounters where rolling might signal to the player that something is being hidden from them.
+### Passive Perception and Secret Doors
+If a secret door has a Notice DC at or below a character's passive perception score, they notice something unusual (a draft, a seam, a slightly different texture) without searching. Do not name it as a secret door — describe the sensory detail that draws attention to it.
+
+If the Notice DC is above the character's passive perception score, the door does not appear in the description at all until the player actively searches.
+
+### Other Passive Checks
+For other skills (Insight, Investigation, History, Arcana), you can establish passive scores the same way: **10 + relevant modifiers.** These are especially useful in social encounters where rolling might signal to the player that something is being hidden.
 
 ---
 
 ## Advantage and Disadvantage
 
-### Grant Advantage when:
-- Circumstances outside the character's own abilities give them an edge
-- An environmental factor improves the chance of success
-- The player describes a creative or exceptionally well-reasoned approach
-- A previous action (by the character or an ally) has improved the situation
+Grant Advantage when:
+- The character has a meaningful tactical, circumstantial, or ability-based edge
+- A spell, item or ability explicitly grants it
+- An ally is helping (Help action)
 
-### Impose Disadvantage when:
-- Circumstances hinder success
-- An environmental factor makes success less likely
-- The character's approach has a meaningful flaw that would complicate the attempt
+Grant Disadvantage when:
+- The character is working against a meaningful obstacle (darkness, difficult terrain, encumbrance)
+- A condition imposes it (Poisoned, Frightened, Restrained)
+- A spell or ability explicitly imposes it
 
-Advantage and Disadvantage always cancel out, regardless of how many sources there are on each side. Multiple advantages do not stack.
+Never stack multiple Advantages or Disadvantages — it's always exactly one die of each, whichever applies. If both Advantage and Disadvantage apply, they cancel and you roll normally.
 
 ---
 

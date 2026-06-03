@@ -28,7 +28,7 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 **Duration:** [Approximate in-world time]
 
 ## Initial Hook
-[How Auriel got involved — 2-4 sentences]
+[How the character got involved — 2-4 sentences]
 
 ## Key Events
 [Chronological summary of major scenes, decisions, and discoveries]
@@ -50,7 +50,7 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 - Personality: [Brief notes]
 - What they know/provided: [Information or items given]
 - Current status: [Alive/dead/location]
-- Relationship to Auriel: [Friendly/neutral/hostile/unknown]
+- Relationship to character: [Friendly/neutral/hostile/unknown]
 
 ## Puzzles & Discoveries
 [Any puzzles solved, secrets found, lore uncovered]
@@ -70,7 +70,7 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 **New permanent items:** [List]
 
 ## Key Decisions Made
-[Choices Auriel made that might have consequences]
+[Choices the character made that might have consequences]
 [Include: who was helped/harmed, what was taken/left behind, alliances formed]
 
 ## Unresolved Threads
@@ -78,7 +78,7 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 [Do NOT invent or speculate — only list things explicitly present in the adventure]
 
 ## Campaign Status After This Adventure
-**Auriel's Level:** [X] ([class breakdown])
+**Character Level:** [X] ([class breakdown])
 **Base of Operations:** [Location]
 **Active Quest:** [Main goal]
 **Known Allies:** [List]
@@ -108,7 +108,24 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 - Claude's opinions or commentary on player decisions
 - Foreshadowing or hints at future adventures
 
-**On mechanics errors:** Record final resource state using correct RAW rules, even if different from what was tracked during play. If a slot was spent that should not have been, or a rule was applied incorrectly, note the correction briefly at the end: *"Correction: 1× 2nd-level slot refunded per rules clarification."* Do not silently preserve an error in the numbers.
+---
+
+## Spell Slot Reconstruction Protocol
+
+Spell slot tracking frequently drifts during long sessions. At the end of every adventure, reconstruct slot usage accurately using this process:
+
+1. **Start from the last confirmed long rest** — all slots full
+2. **List every levelled spell cast** in chronological order, confirmed with the player
+3. **Deduct each slot** in sequence
+4. **If the player corrects the count**, accept their number as authoritative — do not recalculate independently
+5. **Record the final confirmed count** in the summary
+
+If slot tracking was inaccurate during play, note the discrepancy briefly:
+> *"Correction: slot count reconstructed from player's confirmed record. 1× 2nd-level slot was tracked incorrectly mid-session and has been corrected."*
+
+Do not silently preserve a tracking error in the final resource count.
+
+**The player's confirmed slot count is always authoritative over Claude's running total.**
 
 ---
 
@@ -117,20 +134,26 @@ Produce the summary in this exact structure. Save it to the `/summaries/` folder
 After producing the summary, confirm:
 
 1. ✅ Level advancement noted (per campaign leveling rule in campaign setup)
-2. ✅ All resources accurately reflected
-3. ✅ All loot accounted for (kept and sold)
-4. ✅ All NPCs recorded with status
-5. ✅ Unresolved threads listed
-6. ✅ "End of Adventure [N]" stated explicitly
+2. ✅ All resources accurately reflected — confirmed with player
+3. ✅ Spell slot count reconstructed if tracking drifted during play
+4. ✅ All loot accounted for (kept, sold, donated, and given away)
+5. ✅ All NPCs recorded with status and relationship notes
+6. ✅ Unresolved threads listed — from adventure text only, no speculation
+7. ✅ "End of Adventure [N]" stated explicitly
+8. ✅ Campaign setup skill flagged for update (level, stats, GP, new items)
 
 Then wait for the player to:
 - Upload the summary file to the project
+- Update the campaign setup skill with new stats
 - Provide the next adventure text
-- Confirm level-up choices
+- Confirm level-up choices before beginning the next adventure
 
-Do NOT invent the next adventure or create bridging content.
+Do NOT invent the next adventure or create bridging content. Do NOT start the next adventure until the player has uploaded the updated campaign setup.
 
-If the player does not provide the next adventure file, prompt once: *"When you're ready for the next adventure, please upload the chapter file from the project."* Then wait.
+If the player does not provide the next adventure file, prompt once:
+> *"When you're ready for the next adventure, please upload the chapter file from the project."*
+
+Then wait.
 
 ---
 
@@ -145,7 +168,7 @@ If a session ends before the adventure concludes, produce a partial summary usin
 **Adventure Number:** [N]
 **Current Level:** [X] ([class breakdown])
 **Current Location:** [Exact room or area — be specific]
-**Session ended:** [brief note on where Auriel stopped]
+**Session ended:** [brief note on where the character stopped]
 
 ## Events So Far
 [Chronological summary of everything that happened this session, organized by scene]
@@ -153,10 +176,10 @@ If a session ends before the adventure concludes, produce a partial summary usin
 
 ## Current Resources
 **HP:** [X]/[max]
-**Spell Slots:** 1st [X/4] | 2nd [X/3] | 3rd [X/3]
-**Hit Dice:** [X/6] remaining
-**Mage Armor:** [Active / Inactive]
+**Spell Slots:** [by level, per campaign setup]
+**Hit Dice:** [X/total] remaining
 **Concentration:** [Spell or None]
+**Active buffs:** [Any ongoing spells or effects, per campaign setup]
 **Consumables:** [List]
 **GP:** [Total]
 
@@ -167,7 +190,7 @@ If a session ends before the adventure concludes, produce a partial summary usin
 [Full list, whether kept or not]
 
 ## Open Threads
-[What Auriel knows, what she's trying to do, what she has not yet explored]
+[What the character knows, what they are trying to do, what has not yet been explored]
 [This is what gets picked up at the next session — be precise]
 
 ---
